@@ -125,6 +125,9 @@ function App() {
       <Button type="button">Signin Up</Button>
       <span>Already have an account?</span>
       <a href="#">Sign in!</a>
+      <br />
+      <br />
+      <br />
     </Container>
   )
 }

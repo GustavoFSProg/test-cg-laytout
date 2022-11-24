@@ -21,6 +21,8 @@ export const ComboBox = styled.select`
 
   @media screen and (max-width: 800px) {
     width: 84%;
+    margin-bottom: 15px;
+
   }
 `
 
