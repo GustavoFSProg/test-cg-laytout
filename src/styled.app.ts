@@ -50,6 +50,7 @@ export const Input = styled.input`
 
   @media screen and (max-width: 800px) {
     width: 80%;
+    margin-bottom: 15px;
   }
 `
 
