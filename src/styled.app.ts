@@ -10,11 +10,6 @@ export const Container = styled.div`
   height: 100vh;
   
   
-  @media screen and (max-width: 800px) {
-    height: auto;
-  justify-content: center;
-
-  }
   `
 
 export const ComboBox = styled.select`
