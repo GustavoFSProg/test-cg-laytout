@@ -10,6 +10,10 @@ export const Container = styled.div`
   height: 100vh;
   
   
+  @media screen and (max-width: 800px) {
+    padding-top: 55px;
+
+  }
   `
 
 export const ComboBox = styled.select`
