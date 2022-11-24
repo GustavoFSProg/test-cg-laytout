@@ -8,7 +8,12 @@ export const Container = styled.div`
   background: lightpink;
   width: 100vw;
   height: 100vh;
-`
+  
+  
+  @media screen and (max-width: 800px) {
+    height: auto;
+  }
+  `
 
 export const ComboBox = styled.select`
   display: flex;
