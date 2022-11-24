@@ -11,7 +11,7 @@ export const Container = styled.div`
   
   
   @media screen and (max-width: 800px) {
-    padding-top: 85px;
+    padding-top: 100px;
 
   }
   `
