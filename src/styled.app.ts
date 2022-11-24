@@ -12,6 +12,8 @@ export const Container = styled.div`
   
   @media screen and (max-width: 800px) {
     height: auto;
+  justify-content: space-evenly;
+
   }
   `
 
