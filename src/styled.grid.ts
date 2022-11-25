@@ -20,6 +20,8 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 400px);
   grid-column-gap: 5px;
+  justify-items: center;
+ 
 
   @media screen and (max-width: 650px) {
     display: flex;
@@ -41,6 +43,8 @@ export const ComboBox = styled.select`
   padding-left: 10px;
   margin-top: 10px;
   background: #f2f2f2;
+    margin-left: 130px;
+
 
   @media screen and (max-width: 650px) {
     margin-bottom: 5px;
