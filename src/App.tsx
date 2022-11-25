@@ -1,49 +1,24 @@
-import { Link } from 'react-router-dom'
-import { Container, Input, H2, Text, Button, ComboBox } from './styled.app'
+import { Container, Input, InputContainer, H2, Label, Text, Button, ComboBox } from './styled.app'
 
 function App() {
   return (
     <Container>
-      <Link to="/exe">Exemplo</Link>
+      <br />
+      <br />
 
-      <H2>Create a School Educator Account</H2>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100vw',
-          flexDirection: 'row',
-        }}
-      >
-        <Input type="email" placeholder="Email" />{' '}
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100vw',
-          flexDirection: 'row',
-        }}
-      >
-        <Input type="password" placeholder="Password" />
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
-      </div>
-
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100vw',
-          flexDirection: 'row',
-        }}
-      >
-        <Input type="password" placeholder="Confirm Password" />
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
-      </div>
+     <H2>Create a School Educator Account</H2>
+      <InputContainer>
+        <Input type="email" placeholder=" " /> <Label>Email</Label>
+        <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
+      </InputContainer>
+      <InputContainer>
+        <Input type="email" placeholder=" " /> <Label>Password</Label>
+        <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
+      </InputContainer>
+      <InputContainer>
+        <Input type="email" placeholder=" " /> <Label>Confirm Password</Label>
+        <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
+      </InputContainer>
       <div
         style={{
           display: 'flex',
@@ -58,46 +33,35 @@ function App() {
           <option>Contry State</option>
           <option>City State</option>
         </ComboBox>
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
+        <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
       </div>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100vw',
-          flexDirection: 'row',
-        }}
-      >
-        <Input type="text" placeholder="First Name" />
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
-      </div>
+      <InputContainer>
+        <Input type="email" placeholder=" " /> <Label>First Name</Label>
+        <span style={{ marginLeft: '20px', color: 'red', fontSize: '20px' }}>*</span>
+      </InputContainer>
 
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100vw',
-          flexDirection: 'row',
-        }}
+        <InputContainer
+       
       >
-        <Input type="text" placeholder="Last Name" />
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '100vw',
-          flexDirection: 'row',
-        }}
+        <Input type="email" placeholder=" " />{' '}
+        <Label
+         
+        >
+          Last Name
+        </Label>
+        <span style={{ marginLeft: '20px', color: 'red', fontSize: '20px' }}>*</span>
+      </InputContainer>
+      <InputContainer
+       
       >
-        <Input type="text" placeholder="Birthdate" />
-
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
-      </div>
+        <Input type="email" placeholder=" " />{' '}
+        <Label
+         
+        >
+          Birthdate
+        </Label>
+        <span style={{ marginLeft: '20px', color: 'red', fontSize: '20px' }}>*</span>
+      </InputContainer>
 
       <div
         style={{
@@ -114,20 +78,21 @@ function App() {
           <option>City State</option>
           <br />
         </ComboBox>
-        <span style={{ marginLeft: '10px', fontSize: '20px' }}>*</span>
+        <span style={{ marginLeft: '20px', color: 'red', fontSize: '20px' }}>*</span>
       </div>
 
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', marginTop: '12px', alignItems: 'center', justifyContent: 'center' }}>
         <input
           type="checkbox"
-          style={{ minWidth: '17px', minHeight: '17px', marginRight: '7px' }}
+          style={{ minWidth: '17px',   minHeight: '17px', marginRight: '12px' }}
         />
         Classroom Only? Single to Others
       </div>
       <Text>By Singning up you agree to our user agrements! And Privacy Police.</Text>
       <Button type="button">Signin Up</Button>
-      <span>Already have an account?</span>
+      <span style={{marginTop: '15px'}}>Already have an account?</span>
       <a href="#">Sign in!</a>
+      <br />
       <br />
       <br />
       <br />
