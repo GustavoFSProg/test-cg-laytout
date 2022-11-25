@@ -84,8 +84,11 @@ function Grid() {
         </ClassRoomContainer>
       </GridContainer>
 
-      <Text>By Singning up you agree to our user agrements! And Privacy Police.</Text>
-      <Button type="button">Signin Up</Button>
+      <Text>By Singning up you agree to our user agrements! <a href="#">
+        And Privacy Police.
+      </a>
+      </Text>
+      <Button type="button">Sign Up</Button>
       <span style={{ marginTop: '15px' }}>Already have an account?</span>
       <a href="#">Sign in!</a>
       <br />
