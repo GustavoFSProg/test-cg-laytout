@@ -1,8 +1,11 @@
+import { Link } from 'react-router-dom'
 import { Container, Input, H2, Text, Button, ComboBox } from './styled.app'
 
 function App() {
   return (
     <Container>
+      <Link to="/exe">Exemplo</Link>
+
       <H2>Create a School Educator Account</H2>
       <div
         style={{
