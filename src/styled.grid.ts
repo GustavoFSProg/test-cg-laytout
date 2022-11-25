@@ -10,7 +10,7 @@ export const Container = styled.div`
   height: 100vh;
 
   @media screen and (max-width: 650px) {
-    margin-top: -200px;
+    margin-top: -400px;
     padding-bottom: 40px;
     height: auto;
   }
@@ -65,7 +65,7 @@ export const Text = styled.div`
 
 
   @media screen and (max-width: 650px) {
-    margin-top: -25px;
+    margin-top: 30px;
     text-align: center;
     width: 85%;
 
