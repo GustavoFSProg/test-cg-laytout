@@ -70,7 +70,7 @@ export const H2 = styled.h2`
   margin-top: 60px;
 
   @media screen and (max-width: 650px) {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 400px;
   }
 `
@@ -190,7 +190,7 @@ export const Button = styled.button`
 export const ClassRoomContainer = styled.div`
   display: flex;
   margin-top: 32px;
-  margin-left: 110px;
+  margin-left: 370px;
   align-items: center;
   justify-content: center;
   width: 500px;
