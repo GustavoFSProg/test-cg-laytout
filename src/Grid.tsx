@@ -84,7 +84,7 @@ function Grid() {
         </ClassRoomContainer>
       </GridContainer>
 
-      <Text>By Singning up you agree to our user agrements! <a href="#">
+      <Text>By Singnin up you agree to our user agrements! <a href="#">
         And Privacy Police.
       </a>
       </Text>

@@ -13,8 +13,7 @@ export const Container = styled.div`
     margin-top: -350px;
     padding-bottom: 40px;
     height: auto;
-
-    background: yellow;
+    width: 98vw;
   }
 `
 
@@ -23,8 +22,6 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(2, 400px);
   grid-column-gap: 5px;
   justify-items: center;
-    background: green;
- 
 
   @media screen and (max-width: 650px) {
     display: flex;
@@ -32,10 +29,9 @@ export const GridContainer = styled.div`
     align-items: center;
     justify-content: center;
     background: #f2f2f2;
-    width: 100vw;
-    height: 100vh;
-    background: green;
+    width: 89vw;
 
+    height: 100vh;
   }
 `
 
@@ -48,17 +44,15 @@ export const ComboBox = styled.select`
   padding-left: 10px;
   margin-top: 10px;
   background: #f2f2f2;
-    margin-left: 130px;
-
+  margin-left: 130px;
 
   @media screen and (max-width: 500px) {
     margin-bottom: 5px;
-    margin-left: 80px;
-    width: 55%;
+    margin-left: 60px;
+    width: 65%;
   }
 
-
-  @media screen and (min-width: 500px)  and (max-width: 700px){
+  @media screen and (min-width: 500px) and (max-width: 700px) {
     margin-left: 18px;
     width: 88%;
   }
@@ -68,12 +62,10 @@ export const Text = styled.div`
   margin-top: 13px;
   margin-bottom: 10px;
 
-
   @media screen and (max-width: 650px) {
     margin-top: 30px;
     text-align: center;
-    width: 85%;
-
+    width: 65%;
   }
 `
 
@@ -193,6 +185,14 @@ export const Button = styled.button`
   padding-left: 10px;
   margin-top: 15px;
   background: #ffe6b3;
+  border: 1px solid orange;
+  transition: ease 0.6s;
+  cursor: pointer;
+
+  :hover{
+    background: gray;
+    color: green;
+  }
 
   @media screen and (max-width: 650px) {
     width: 77%;
@@ -209,7 +209,6 @@ export const ClassRoomContainer = styled.div`
 
   @media screen and (max-width: 650px) {
     width: 250px;
-  margin-left: 38px;
-  
+    margin-left: 38px;
   }
 `
