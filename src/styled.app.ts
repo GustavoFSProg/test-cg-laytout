@@ -5,13 +5,13 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: #e6e6e6;
+  background: #f2f2f2;
   width: 100vw;
   height: 100vh;
   
   @media screen and (max-width: 650px) {
     padding-top: 100px;
-
+    padding-bottom: 105px;
 
   }
   `
@@ -23,7 +23,7 @@ export const ComboBox = styled.select`
   border-radius: 8px;
   padding-left: 10px;
   margin-top: 10px;
-  background: #e6e6e6;
+  background: #f2f2f2;
 
 
   @media screen and (max-width: 650px) {
@@ -34,6 +34,7 @@ export const ComboBox = styled.select`
 `
 
 export const Text = styled.div`
+
   @media screen and (max-width: 650px) {
     width: 85%;
   }
@@ -45,8 +46,11 @@ export const Text = styled.div`
 `
 
 export const H2 = styled.h2`
+    margin-top: 60px;
+
   @media screen and (max-width: 650px) {
     font-size: 16px;
+    margin-top: 200px;
   }
 `
 
@@ -67,7 +71,7 @@ display: flex;
   width: 99%;
   height: 2rem;
   padding-left: 10px;
-  background: #e6e6e6;
+  background: #f2f2f2;
  
 
 :focus{

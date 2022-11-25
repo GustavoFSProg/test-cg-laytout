@@ -3,10 +3,7 @@ import { Container, Input, InputContainer, H2, Label, Text, Button, ComboBox } f
 function App() {
   return (
     <Container>
-      <br />
-      <br />
-
-     <H2>Create a School Educator Account</H2>
+        <H2>Create a School Educator Account</H2>
       <InputContainer>
         <Input type="email" placeholder=" " /> <Label>Email</Label>
         <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
