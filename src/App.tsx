@@ -9,11 +9,11 @@ function App() {
         <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
       </InputContainer>
       <InputContainer>
-        <Input type="email" placeholder=" " /> <Label>Password</Label>
+        <Input type="password" placeholder=" " /> <Label>Password</Label>
         <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
       </InputContainer>
       <InputContainer>
-        <Input type="email" placeholder=" " /> <Label>Confirm Password</Label>
+        <Input type="password" placeholder=" " /> <Label>Confirm Password</Label>
         <span style={{ marginLeft: '10px', color: 'red', fontSize: '20px' }}>*</span>
       </InputContainer>
       <div
