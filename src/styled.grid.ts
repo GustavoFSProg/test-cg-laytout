@@ -13,6 +13,8 @@ export const Container = styled.div`
     margin-top: -350px;
     padding-bottom: 40px;
     height: auto;
+
+    background: yellow;
   }
 `
 
@@ -21,6 +23,7 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(2, 400px);
   grid-column-gap: 5px;
   justify-items: center;
+    background: green;
  
 
   @media screen and (max-width: 650px) {
@@ -31,6 +34,8 @@ export const GridContainer = styled.div`
     background: #f2f2f2;
     width: 100vw;
     height: 100vh;
+    background: green;
+
   }
 `
 
