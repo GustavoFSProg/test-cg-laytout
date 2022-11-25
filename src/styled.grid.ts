@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 650px) {
     margin-top: -350px;
-    padding-bottom: 140px;
+    padding-bottom: 40px;
     height: auto;
   }
 `
@@ -78,6 +78,7 @@ export const H2 = styled.h2`
   @media screen and (max-width: 650px) {
     font-size: 16px;
     margin-top: 400px;
+    margin-bottom: 200px;
   }
 `
 
