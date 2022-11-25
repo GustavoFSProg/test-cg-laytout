@@ -10,7 +10,7 @@ export const Container = styled.div`
   height: 100vh;
 
   @media screen and (max-width: 650px) {
-    padding-top: 100px;
+    margin-top: -100px;
     padding-bottom: 40px;
     height: auto;
   }
@@ -46,10 +46,16 @@ export const ComboBox = styled.select`
     margin-left: 130px;
 
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 500px) {
     margin-bottom: 5px;
-    margin-left: 74px;
-    width: 14.4rem;
+    margin-left: 80px;
+    width: 55%;
+  }
+
+
+  @media screen and (min-width: 500px)  and (max-width: 700px){
+    margin-left: 18px;
+    width: 88%;
   }
 `
 
@@ -59,7 +65,7 @@ export const Text = styled.div`
 
 
   @media screen and (max-width: 650px) {
-    margin-top:-95px;
+    margin-top: -25px;
     text-align: center;
     width: 85%;
 
