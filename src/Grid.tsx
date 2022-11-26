@@ -14,7 +14,7 @@ import {
 function Grid() {
   return (
     <Container>
-      <H2>Create a School Educator Account-GRIDD</H2>
+      <H2>Create a School Educator Account</H2>
       <GridContainer>
         <InputContainer>
           <Input type="email" placeholder=" " /> <Label>Email</Label>
