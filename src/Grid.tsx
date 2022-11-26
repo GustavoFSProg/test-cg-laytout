@@ -88,7 +88,7 @@ function Grid() {
         And Privacy Police.
       </a>
       </Text>
-      <Button type="button">Sign Up</Button>
+      <Button type="button" onClick={() => alert("Clicado!!")}>Sign Up</Button>
       <span style={{ marginTop: '15px' }}>Already have an account?</span>
       <a href="#">Sign in!</a>
       <br />

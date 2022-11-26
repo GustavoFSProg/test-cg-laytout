@@ -49,12 +49,12 @@ export const ComboBox = styled.select`
   @media screen and (max-width: 500px) {
     margin-bottom: 5px;
     margin-left: 60px;
-    width: 65%;
+    width: 58%;
   }
 
   @media screen and (min-width: 500px) and (max-width: 700px) {
     margin-left: 18px;
-    width: 88%;
+    width: 80%;
   }
 `
 
@@ -152,6 +152,7 @@ export const Label = styled.label`
   top: 0;
   left: 0;
   margin-top: 20px;
+  font-size: 15px;
 
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
