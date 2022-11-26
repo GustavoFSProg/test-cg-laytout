@@ -119,7 +119,7 @@ export const InputContainer = styled.div`
 
    
  @media screen and (max-width: 650px) {
-    width: 80%;
+    width: 20%;
     /* margin-left: -95px; */
     display: flex;
     justify-content: center ;

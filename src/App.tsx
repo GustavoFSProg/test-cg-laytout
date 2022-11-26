@@ -1,4 +1,5 @@
 import { Container, Input, InputContainer, H2, Label, Text, Button, ComboBox } from './styled.app'
+import './App.css'
 
 function App() {
   return (

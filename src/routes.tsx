@@ -9,7 +9,7 @@ function Routing() {
 
     <BrowserRouter >
       <Routes >
-        {/* <Route path="/" element={<App />} /> */}
+        <Route path="/app" element={<App />} />
         <Route path="/" element={<Grid />} />
       </Routes>
     </BrowserRouter>

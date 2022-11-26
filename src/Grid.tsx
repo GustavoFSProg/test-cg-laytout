@@ -9,10 +9,14 @@ import {
   Text,
   Button,
   ComboBox,
+  SpanSignIn,
+
 } from './styled.grid'
 
 function Grid() {
   return (
+    <>
+
     <Container>
       <H2>Create a School Educator Account</H2>
       <GridContainer>
@@ -84,19 +88,26 @@ function Grid() {
         </ClassRoomContainer>
       </GridContainer>
 
-      <Text>By Singnin up you agree to our user agrements!
-        <a href="#" style={{color: '#0099e6'}}>
-        And Privacy Police.
-      </a>
+      <Text>
+        By Singnin up you agree to our user agrements!
+        <a href="#" style={{ color: '#0099e6' }}>
+          And Privacy Police.
+        </a>
       </Text>
-      <Button type="button" onClick={() => alert("Clicado!!")}>Sign Up</Button>
-      <span style={{ marginTop: '15px', color: '#595959' }}>Already have an account?</span>
-      <a href="#" style={{color: '#0099e6'}}>Sign in!</a>
+      <Button type="button" onClick={() => alert('Clicado!!')}>
+        Sign Up
+      </Button>
+      <SpanSignIn style={{ }}>Already have an account?</SpanSignIn>
+      <a href="#" style={{ color: '#0099e6' }}>
+        Sign in!
+      </a>
       <br />
       <br />
       <br />
       <br />
-    </Container>
+      </Container>
+    </>
+      
   )
 }
 
