@@ -14,7 +14,7 @@ export const Container = styled.div`
     margin-top: -350px;
     padding-bottom: 40px;
     height: auto;
-    width: 91%;
+    width: 81%;
     margin-left: 137px;
   align-items: center;
   justify-content: center;
