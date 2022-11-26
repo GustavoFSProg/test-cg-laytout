@@ -39,13 +39,15 @@ export const GridContainer = styled.div`
 export const ComboBox = styled.select`
   display: flex;
   width: 19rem;
-
+  color: #8c8c8c;
   height: 2.2rem;
   border-radius: 8px;
   padding-left: 10px;
   margin-top: 10px;
   background: #f2f2f2;
   margin-left: 40px;
+  font-size: 15px;
+
 
   @media screen and (max-width: 500px) {
     margin-bottom: 5px;
@@ -60,8 +62,9 @@ export const ComboBox = styled.select`
 `
 
 export const Text = styled.div`
-  margin-top: 13px;
-  margin-bottom: 10px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #595959;
 
   @media screen and (max-width: 650px) {
     margin-top: 30px;
@@ -72,6 +75,8 @@ export const Text = styled.div`
 
 export const H2 = styled.h2`
   margin-top: 60px;
+  margin-bottom: 80px;
+  color: #ff7733;
 
   @media screen and (max-width: 650px) {
     font-size: 16px;
@@ -82,7 +87,7 @@ export const H2 = styled.h2`
 
 export const Input = styled.input`
   border: 0;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #a6a6a6;
   outline: none;
   /* min-width: 180px; */
   font-size: 15px;
@@ -91,6 +96,7 @@ export const Input = styled.input`
   -moz-transition: all 0.3s ease-out;
   -webkit-appearance: none;
   border-radius: 0;
+ color: #808080;
 
   display: flex;
   width: 28rem;
@@ -155,6 +161,7 @@ export const Label = styled.label`
   left: 0;
   margin-top: 20px;
   font-size: 16px;
+  color: #808080;
 
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -187,13 +194,15 @@ export const Button = styled.button`
   border-radius: 8px;
   padding-left: 10px;
   margin-top: 15px;
-  background: #ffe6b3;
+  background: #ffbb99;
+    color: #0099e6;
+
   border: 1px solid orange;
   transition: ease 0.6s;
   cursor: pointer;
 
   :hover{
-    background: gray;
+    background:#ff7733;
     color: green;
   }
 
@@ -204,11 +213,12 @@ export const Button = styled.button`
 
 export const ClassRoomContainer = styled.div`
   display: flex;
-  margin-top: 32px;
+  margin-top: 39px;
   margin-left: 370px;
   align-items: center;
   justify-content: center;
   width: 500px;
+  color: #595959;
 
   @media screen and (max-width: 650px) {
     width: 250px;

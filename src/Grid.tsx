@@ -84,13 +84,14 @@ function Grid() {
         </ClassRoomContainer>
       </GridContainer>
 
-      <Text>By Singnin up you agree to our user agrements! <a href="#">
+      <Text>By Singnin up you agree to our user agrements!
+        <a href="#" style={{color: '#0099e6'}}>
         And Privacy Police.
       </a>
       </Text>
       <Button type="button" onClick={() => alert("Clicado!!")}>Sign Up</Button>
-      <span style={{ marginTop: '15px' }}>Already have an account?</span>
-      <a href="#">Sign in!</a>
+      <span style={{ marginTop: '15px', color: '#595959' }}>Already have an account?</span>
+      <a href="#" style={{color: '#0099e6'}}>Sign in!</a>
       <br />
       <br />
       <br />
