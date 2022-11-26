@@ -85,7 +85,7 @@ export const Input = styled.input`
   border-bottom: 2px solid gray;
   outline: none;
   /* min-width: 180px; */
-  font-size: 16px;
+  font-size: 15px;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -154,7 +154,7 @@ export const Label = styled.label`
   top: 0;
   left: 0;
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 16px;
 
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
