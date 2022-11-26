@@ -19,9 +19,10 @@ export const Container = styled.div`
 
 export const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 380px);
   grid-column-gap: 5px;
   justify-items: center;
+  
 
   @media screen and (max-width: 650px) {
     display: flex;
@@ -37,24 +38,24 @@ export const GridContainer = styled.div`
 
 export const ComboBox = styled.select`
   display: flex;
-  width: 12.2rem;
+  width: 19rem;
 
   height: 2.2rem;
   border-radius: 8px;
   padding-left: 10px;
   margin-top: 10px;
   background: #f2f2f2;
-  margin-left: 130px;
+  margin-left: 40px;
 
   @media screen and (max-width: 500px) {
     margin-bottom: 5px;
-    margin-left: 60px;
-    width: 58%;
+    margin-left: 85px;
+    width: 52%;
   }
 
   @media screen and (min-width: 500px) and (max-width: 700px) {
     margin-left: 18px;
-    width: 80%;
+    width: 85%;
   }
 `
 
@@ -83,7 +84,7 @@ export const Input = styled.input`
   border: 0;
   border-bottom: 2px solid gray;
   outline: none;
-  min-width: 180px;
+  /* min-width: 180px; */
   font-size: 16px;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -92,10 +93,11 @@ export const Input = styled.input`
   border-radius: 0;
 
   display: flex;
-  width: 99%;
+  width: 28rem;
   height: 2rem;
   padding-left: 10px;
   background: #f2f2f2;
+  margin-bottom: 16px;
 
   :focus {
     border-bottom: 2px solid #cc0000;
@@ -131,7 +133,7 @@ export const Input = styled.input`
 `
 
 export const InputContainer = styled.div`
-  width: 35%;
+  width: 85%;
   position: relative;
   padding-top: 13px;
   display: flex;
