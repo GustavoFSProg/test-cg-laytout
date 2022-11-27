@@ -1,6 +1,27 @@
 import styled from 'styled-components'
 
 
+
+export const Wrapper = styled.div`
+    width: 100vw;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 850px) {
+    /* margin-top: -350px; */
+    padding-bottom: 40px;
+    height: auto;
+    width: 65vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+   
+  }
+`
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -11,13 +32,15 @@ export const Container = styled.div`
   height: 100vh;
 
   @media screen and (max-width: 850px) {
-    margin-top: -350px;
     padding-bottom: 40px;
     height: auto;
-    width: 41%;
-    margin-left: 137px;
+
+  flex-direction: column;
+;
   align-items: center;
   justify-content: center;
+  display: flex;
+
 
    
   }
@@ -28,8 +51,8 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(2, 380px);
   grid-column-gap: 5px;
   justify-items: center;
+  padding-bottom: 15px;
 
-  
 
   @media screen and (max-width: 850px) {
     display: flex;
@@ -37,11 +60,8 @@ export const GridContainer = styled.div`
     align-items: center;
     justify-content: center;
 
-    background: #f2f2f2;
+    width: 14rem;
 
-    width: 90vw;
-
-    /* height: 100vh; */
   }
 `
 
@@ -60,14 +80,14 @@ export const ComboBox = styled.select`
 
   @media screen and (max-width: 500px) {
     margin-bottom: 5px;
-    margin-left: 57px;
-    width: 67%;
-  }
+    margin-left: 110px;
+    width: 10rem;
 
+  }
+/* 
   @media screen and (min-width: 500px) and (max-width: 700px) {
     margin-left: 18px;
-    /* width: 85%; */
-  }
+  } */
 `
 
 export const Text = styled.div`
@@ -77,9 +97,9 @@ export const Text = styled.div`
 
   @media screen and (max-width: 850px) {
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 55px;
     /* text-align: center; */
-    width: 18rem;
+    width: 15rem;
   }
 `
 
@@ -94,9 +114,9 @@ export const H2 = styled.h2`
     font-size: 16px;
     margin-top: 400px;
     margin-bottom: 50px;
-    width: 20rem;
+    width: 15rem;
   background: #f2f2f2;
-  margin-left: 60px;
+  /* margin-left: 100px; */
 
 
   }
@@ -227,7 +247,8 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 850px) {
-    width: 16.2rem;
+    width: 14.2rem;
+    margin-left: 20px;
   }
 `
 
@@ -243,7 +264,7 @@ export const ClassRoomContainer = styled.div`
 
   @media screen and (max-width: 850px) {
     width: 250px;
-    margin-left: 38px;
+    margin-left: 68px;
   }
 `
 
@@ -256,7 +277,7 @@ export const SpanSignIn = styled.span`
   @media screen and (max-width: 850px) {
     width: 230px;
     line-height: 50px ;
-    margin-left: 38px;
+    margin-left: 52px;
 
   }
 `

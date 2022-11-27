@@ -10,12 +10,13 @@ import {
   Button,
   ComboBox,
   SpanSignIn,
+  Wrapper
 
 } from './styled.grid'
 
 function Grid() {
   return (
-    <>
+    <Wrapper>
 
     <Container>
       <H2>Create a School Educator Account</H2>
@@ -106,7 +107,7 @@ function Grid() {
       <br />
       <br />
       </Container>
-    </>
+    </Wrapper>
       
   )
 }
