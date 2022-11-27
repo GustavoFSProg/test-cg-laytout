@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 850px) {
-    /* margin-top: -350px; */
+    margin-top: -350px;
     padding-bottom: 40px;
     height: auto;
     width: 65vw;
