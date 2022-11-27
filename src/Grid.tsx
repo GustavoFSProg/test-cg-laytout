@@ -10,7 +10,8 @@ import {
   Button,
   ComboBox,
   SpanSignIn,
-  Wrapper
+  Wrapper,
+  ButtonContainer
 
 } from './styled.grid'
 
@@ -97,11 +98,14 @@ function Grid() {
       </Text>
       <Button type="button" onClick={() => alert('Clicado!!')}>
         Sign Up
-      </Button>
-      <SpanSignIn style={{ }}>Already have an account?</SpanSignIn>
+        </Button>
+        <ButtonContainer >
+
+      <SpanSignIn >Already have an account?</SpanSignIn>
       <a href="#" style={{ color: '#0099e6' }}>
         Sign in!
       </a>
+        </ButtonContainer>
       <br />
       <br />
       <br />

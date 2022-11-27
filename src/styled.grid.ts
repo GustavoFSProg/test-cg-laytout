@@ -80,8 +80,8 @@ export const ComboBox = styled.select`
 
   @media screen and (max-width: 500px) {
     margin-bottom: 5px;
-    margin-left: 110px;
-    width: 10rem;
+    margin-left: 130px;
+    width: 13.2rem;
 
   }
 /* 
@@ -97,7 +97,7 @@ export const Text = styled.div`
 
   @media screen and (max-width: 850px) {
     margin-top: 30px;
-    margin-left: 55px;
+    margin-left: 100px;
     /* text-align: center; */
     width: 15rem;
   }
@@ -116,7 +116,8 @@ export const H2 = styled.h2`
     margin-bottom: 50px;
     width: 15rem;
   background: #f2f2f2;
-  /* margin-left: 100px; */
+  margin-left: 100px;
+  line-height: 22px ;
 
 
   }
@@ -171,8 +172,9 @@ export const Input = styled.input`
   }
 
   @media screen and (max-width: 850px) {
-    width: 80%;
+    width: 15rem;
     margin-bottom: 15px;
+    margin-left: 87px;
   }
 `
 
@@ -208,7 +210,9 @@ export const Label = styled.label`
   -moz-transition: all 0.3s ease-out;
 
   @media screen and (max-width: 850px) {
-    margin-left: 7px;
+            margin-left: 25px;
+
+
   }
 `
 
@@ -247,8 +251,8 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 850px) {
-    width: 14.2rem;
-    margin-left: 20px;
+    width: 14rem;
+    margin-left: 80px;
   }
 `
 
@@ -264,7 +268,7 @@ export const ClassRoomContainer = styled.div`
 
   @media screen and (max-width: 850px) {
     width: 250px;
-    margin-left: 68px;
+    margin-left: 85px;
   }
 `
 
@@ -277,8 +281,21 @@ export const SpanSignIn = styled.span`
   @media screen and (max-width: 850px) {
     width: 230px;
     line-height: 50px ;
-    margin-left: 52px;
+    margin-left: 85px;
 
   }
 `
 
+export const ButtonContainer = styled.div`
+  display: flex;
+   flex-direction:  column;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+
+
+  @media screen and (max-width: 850px) {
+    margin-left: 35px;
+  }
+`
